@@ -1,7 +1,7 @@
 # Maintainer: Gordon Bleux <gordon.bleux+aurdcb@gmail.com>
 pkgname=docker-compose-bin
 _pkgname=docker-compose
-pkgver=1.2.0rc3
+pkgver=1.2.0
 pkgrel=1
 pkgdesc="Define and run complex applications using Docker"
 arch=('x86_64')
@@ -15,8 +15,8 @@ source=("docker-compose::https://github.com/docker/compose/releases/download/${p
         "docker-compose.bash::https://raw.githubusercontent.com/docker/compose/${pkgver}/contrib/completion/bash/docker-compose")
 noextract=('docker-compose'
            'docker-compose.bash')
-sha256sums=('66e34fb5ed99a79cfa8002cd8072c9d75ce8b4106b27f1357a9c227776e288ec'
-            '995bafaaf088381d5ad9c0c1ed743ef0bb7006d4e5a67fd4411888986639b29c')
+sha256sums=('796bafa7977815f0b6c34adfc6f4a9e0e2e4782226223068804f78f9583eeee9'
+            '06237e657f6f405d338e66ff1969872645dc99e6b986aba54e8c5244eee3996a')
 options=('!strip')
 
 package() {
